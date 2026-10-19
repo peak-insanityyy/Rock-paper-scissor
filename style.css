@@ -1,0 +1,68 @@
+body {
+  background: #0B1923;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p:first-child {
+  color: #00F5A0;
+  font-size: 36px;
+  text-shadow: 0px 0px 10px #00F0A8;
+}
+
+button {
+  padding: 15px 25px;
+  margin: 10px;
+  font-size: 17px;
+  border: none;
+  border-radius: 18px;
+  background: #9BB9BF;
+  color: #f8fafc;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:active {
+  background: #00F5A0;
+  color: #0f172a;
+  box-shadow: 0px 5px 20px #1CEAAA;
+  transform: translate(0px, -5px);
+}
+
+.js-result {
+  color: #A3E635;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 0px 0px 15px #A3E635;
+}
+
+.js-moves {
+  color: #22D3EE;
+  text-align: center;
+}
+
+.js-score {
+  color: #94A3B8;
+  text-align: center;
+  font-size: 19px;
+  text-shadow: 0px 0px 15px #000000;
+  padding: 15px 20px;
+  border: 1px solid rgb(156, 156, 156);
+  border-radius: 15px;
+  background: rgba(15, 35, 55, 0.8);
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.08);
+}
+
+.reset-button {
+  background: #F43F5E;
+  color: #FFFFFF;
+}
+
+.reset-button:active {
+  background: #dc2626;
+  color: #000000;
+  box-shadow: none;
+}
